@@ -6,14 +6,14 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
     ListView simpleList;
-    String  Item[] = {"Kem Cam", "Kem Dâu", "Kem Khoai Môn", "kem Bơ", "Kem Nho"," Sinh tố bơ","Sinh tố cà chua"};
+    String  Item[] = {" ListView Title1", "ListView Title2 ", "ListView Title3", "ListView Title4"};
     String  SubItem[] = {
-            "Giá: 30.000đ.",
-            "Giá: 35.000đ.",
-            "Giá: 30.000đ.",
-            "Giá: 45.000đ.",
-            "Giá: 45.000đ."};
-    int flags[] = {R.drawable.cam_, R.drawable.dau_, R.drawable.mon, R.drawable.bo_, R.drawable.nho,R.drawable.sinhtobo,R.drawable.cachua};
+            "Android ListView Short Description",
+            "Android ListView Short Description",
+            "Android ListView Short Description",
+            "Android ListView Short Description",
+            "Android ListView Short Description"};
+    int flags[] = {R.drawable.nguoi, R.drawable.nguoi, R.drawable.nguoi, R.drawable.nguoi};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
